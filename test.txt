@@ -1,0 +1,40 @@
+int f()
+{
+	return 5;
+}
+
+void f1() 
+{
+	return;
+}
+int main() 
+{
+	int a;
+	int b, c, d, e, j;
+	a = f();
+	f1();
+	a++;
+	c = b + d++ + a;
+	a = b = c = d = e + 5;
+
+	do 
+	a = 5;
+	while(a == 1 && a != 5);
+
+	for(int i = 0; i < 5; i++) 
+	{
+		a = 5;
+	}
+	
+
+	for j = 0 to 10 step 2
+		a = 5;
+	next j
+
+	for j = 0 to 10
+		a = 5;
+	next j
+		
+
+	return 0;
+}
